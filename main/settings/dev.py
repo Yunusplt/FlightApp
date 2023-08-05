@@ -3,7 +3,7 @@ from .base import *
 
 THIRD_PARTY_APPS=['debug_toolbar',]
 
-DEBUG = config("DEBUG")
+DEBUG=True
 
 INSTALLED_APPS += THIRD_PARTY_APPS
 
